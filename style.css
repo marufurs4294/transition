@@ -1,0 +1,25 @@
+.field {
+    display: flex;
+    margin-top: 100px;
+}
+
+.dog {
+    position: relative;
+    top: 130px;
+    transition: ease-in .3s;
+}
+
+.man {
+    position: relative;
+    left: 50px;
+    transition: .4s ease-out .1s;
+}
+
+.field:hover .dog {
+    transform: translate(200px);
+
+}
+
+.field:hover .man {
+    transform: translate(600px);
+}
